@@ -1,0 +1,2 @@
+class WeatherReading < ApplicationRecord
+end
