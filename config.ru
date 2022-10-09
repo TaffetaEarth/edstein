@@ -4,5 +4,7 @@
 
 require_relative 'config/environment'
 
+Weather::API.compile!
+run Weather::API
 run Rails.application
 Rails.application.load_server
